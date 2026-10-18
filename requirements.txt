@@ -1,0 +1,45 @@
+# --- Core LangChain ---
+langchain
+langchain-core
+langchain-community
+
+# --- LLM Provider Integrations ---
+langchain-anthropic        # Claude (recommended default)
+langchain-openai           # OpenAI GPT models
+langchain-google-genai     # Google Gemini
+langchain-huggingface      # HuggingFace models
+langchain-groq
+
+# --- Vector Stores / Embeddings / RAG ---
+langchain-text-splitters
+faiss-cpu                  # local vector store
+chromadb                   # local vector store
+tiktoken                   # token counting
+
+# --- Document Loaders ---
+pypdf                      # PDF loading
+beautifulsoup4             # web/HTML parsing
+unstructured               # misc document parsing
+
+# --- Environment / Utilities ---
+python-dotenv              # load .env files
+pydantic
+
+# --- Jupyter Notebook Stack ---
+ipykernel
+jupyter
+notebook
+jupyterlab
+ipywidgets
+
+python-dotenv
+
+langgraph
+langgraph-checkpoint-sqlite
+
+langchain-text-splitters
+pymupdf 
+pymupdf4llm
+
+sqlalchemy 
+pymysql
